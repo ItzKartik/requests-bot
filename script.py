@@ -84,12 +84,6 @@ def index(profile_name, url):
     return True
 
 while True:
-    urls = [['its_kartik', 'https://www.fiverr.com/users/its_kartik/requests'], 
-	    ['the_trained_one', 'https://www.fiverr.com/users/the_trained_one/requests'],
-	   ['dapp_developer', 'https://www.fiverr.com/users/dapp_developer/requests']]
-    for i in range(0, len(urls)):
-        index(urls[i][0], urls[i][1])
-    sleep(1800)
     if ( time_now >= 8 ) and ( time_now <= 21 ):
         urls = [['its_kartik', 'https://www.fiverr.com/users/its_kartik/requests'], 
                 ['the_trained_one', 'https://www.fiverr.com/users/the_trained_one/requests'],
